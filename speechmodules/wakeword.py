@@ -3,8 +3,8 @@ import pyaudio
 import struct
 import asyncio
 
-PICOVOICE_API_KEY = "Zi94o/VlkBMGKtF99VSqdPlO34A9Bt1kUsG1i93FhG48hwjhdC7uGQ=="
-keyword_path = 'hi-moss_en_windows_v2_1_0.ppn'
+PICOVOICE_API_KEY = "pcPCgVi24x1PlBNvRftPfEX6jFbR7hkrCImS0vdGnNREIlfs9OzTzg=="
+keyword_path = 'hi-moss_en_raspberry-pi_v2_2_0.ppn'
 
 
 class PicoWakeWord:
