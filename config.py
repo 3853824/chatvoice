@@ -4,8 +4,8 @@ class Config:
     REPLYING: bool = False
 
     # 唤醒配置
-    PICOVOICE_API_KEY = "Zi94o/VlkBMGKtF99VSqdPlO34A9Bt1kUsG1i93FhG48hwjhdC7uGQ=="
-    keyword_path = './speechmodules/hi-moss_en_windows_v2_1_0.ppn'
+    PICOVOICE_API_KEY = "pcPCgVi24x1PlBNvRftPfEX6jFbR7hkrCImS0vdGnNREIlfs9OzTzg=="
+    keyword_path = './speechmodules/hi-moss_en_raspberry-pi_v2_2_0.ppn'
 
     # 百度ASR配置
     BD_APP_ID = '34381280'
@@ -25,7 +25,7 @@ class Config:
     MQTT_ID = "pytest"
 
     # OPENAI配置
-    OPENAI_API_KEY = "sb-7ecc3c07ddb792181f53eff3b7b425f9"
+    OPENAI_API_KEY = "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"
     OPENAI_API_BASE = "https://api.openai-sb.com/v1"
     OPENAI_PREVIOUS_MESSAGES_COUNT: int = 5  # 0 means no contextual conversation
     OPENAI_PREVIOUS_MESSAGES_SAVE_REPLY = True
